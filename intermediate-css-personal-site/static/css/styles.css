@@ -1,0 +1,43 @@
+/* Just trying things out. Just in case someone stumbles upon this.
+You are reading it after all. */
+
+
+body {
+    background-color: #EEEEEE;
+    margin: 0px;
+}
+
+
+.introduction {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+    /* padding-top: 50%; */
+}
+
+.debug {
+    background-color: lightblue;
+    margin: 0px;
+    margin-top: 0px;
+    /* padding-top: 50%; */
+}
+
+.debug h1 {
+    margin-top: 0;
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: solid black 4px;
+}
