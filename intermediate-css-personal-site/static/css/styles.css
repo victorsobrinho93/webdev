@@ -8,6 +8,17 @@ body {
 .top-container {
   background-color: #EEEEEE;
   height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.vertical-center {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .top-container h1, .top-container p {
@@ -112,21 +123,31 @@ body {
 
 /* relative positioning */
 
-.top-container img {
+/* .top-container img {
     position: relative;
+} */
+
+.image-background {
+  position: absolute;
+  /* background-color: darkgrey; */
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%)
 }
 
 .mountain {
-    top: 63vh;
-    left: 35%;
+    /* top: 65vh;
+    left: 10%; */
 }
 
 .first-cloud {
-    top: 43vh;
-    left: 20%;
+    position: absolute;
+    top: 20vh;
+    right: 10%;
 }
 
 .second-cloud {
-    top: 50vh;
-    right: 5%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
 }
